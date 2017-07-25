@@ -1,0 +1,70 @@
+{
+   
+  "gh1912": {
+    "subject": "Test your Spanish translation skills",
+    "help": "Choose the word that is the best translation for the displayed word",
+    "data": [
+    {
+        "questionType": "translate",
+        "question": "comida",
+        "answers": ["food", "eating", "to share", "sister"],
+        "correctAnswer": "food"
+      },
+    {
+        "questionType": "translate",
+        "question": "perro",
+        "answers": ["dog", "father", "angry", "pet"],
+        "correctAnswer": "dog"
+      },
+    {
+        "questionType": "translate",
+        "question": "hermano",
+        "answers": ["brother", "father", "sister", "crab"],
+        "correctAnswer": "brother"
+      },
+    {
+        "questionType": "translate",
+        "question": "escribir",
+        "answers": ["to write", "to read", "to scribble", "money"],
+        "correctAnswer": "to write"
+      },
+    {
+        "questionType": "translate",
+        "question": "dinero",
+        "answers": ["money", "dinner", "to cook", "mother"],
+        "correctAnswer": "money"
+      },
+    {
+        "questionType": "translate",
+        "question": "borrador",
+        "answers": ["eraser", "border", "dog", "teacher"],
+        "correctAnswer": "eraser"
+      },
+     {
+        "questionType": "translate",
+        "question": "nadar",
+        "answers": ["to swim", "sister", "friend", "eraser"],
+        "correctAnswer": "to swim"
+      },
+    {
+        "questionType": "translate",
+        "question": "casa",
+        "answers": ["house", "to marry", "food", "teacher"],
+        "correctAnswer": "house"
+      },
+    {
+        "questionType": "translate",
+        "question": "camisa",
+        "answers": ["shirt", "skirt", "to write", "money"],
+        "correctAnswer": "shirt"
+      },
+    {
+        "questionType": "translate",
+        "question": "pez",
+        "answers": ["fish", "candy", "angry", "cat"],
+        "correctAnswer": "fish"
+      }
+    ]
+  }
+  
+}

@@ -1,0 +1,69 @@
+{
+    "ab1234": {
+     "subject": "Test your Spanish antonym skills",
+      "help": "Choose the word that is the opposite of the displayed word",
+     "data": [
+      {
+        "questionType": "opposite",
+        "question": "frío",
+        "answers": ["caliente", "burrito", "escuela", "perro"],
+        "correctAnswer": "caliente"
+      },
+      {
+        "questionType": "opposite",
+        "question": "arriba",
+        "answers": ["abajo", "lápiz", "verde", "nosotros"],
+        "correctAnswer": "abajo"
+      },
+      {
+        "questionType": "opposite",
+        "question": "cerca",
+        "answers": ["lejos", "gato", "caminar", "helado"],
+        "correctAnswer": "lejos"
+      },
+       {
+        "questionType": "opposite",
+        "question": "alto",
+        "answers": ["bajo", "chico", "brincar", "malo"],
+        "correctAnswer": "bajo"
+      },
+       {
+        "questionType": "opposite",
+        "question": "izquierda",
+        "answers": ["derecha", "azúl", "inteligente", "casa"],
+        "correctAnswer": "derecha"
+      },
+      {
+        "questionType": "opposite",
+        "question": "ganar",
+        "answers": ["perder", "visitar", "ella", "borrador"],
+        "correctAnswer": "perder"
+      },
+      {
+        "questionType": "opposite",
+        "question": "verdadero",
+        "answers": ["falso", "lápiz", "morado", "comer"],
+        "correctAnswer": "falso"
+      },
+      {
+        "questionType": "opposite",
+        "question": "rico",
+        "answers": ["pobre", "compartir", "reloj", "helado"],
+        "correctAnswer": "pobre"
+      },
+       {
+        "questionType": "opposite",
+        "question": "mojado",
+        "answers": ["seco", "mujer", "comida", "bien"],
+        "correctAnswer": "seco"
+      },
+       {
+        "questionType": "opposite",
+        "question": "largo",
+        "answers": ["corto", "amarillo", "caliente", "contento"],
+        "correctAnswer": "corto"
+      }
+    ]
+    }
+  
+}

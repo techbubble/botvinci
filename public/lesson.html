@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Botvinci Lesson Plan</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+      <div class="container-fluid" style="margin:0 10px;">
+        <div class="row">
+          <div class="col-xs-2">
+            <img class="img-responsive" src="https://cdn.glitch.com/0d1d942e-ab86-43ed-b4d9-c3967a55c890%2FBotvinci-1000.png?1500978774187" />
+            <p style="margin-top:30px;">
+              Click below to add this Lesson Plan to your calendar
+            </p>
+            <p style="text-align:center;">
+              <a id="google-link" href="" target="_new"><img src="https://studio.whenhub.com/img/google.png" style="width:100px;"/></a>
+            </p>
+            <p style="text-align:center;">
+              <a id="apple-link" href="" target="_new"><img src="https://studio.whenhub.com/img/apple.png" style="width:100px;"/></a>
+            </p>
+            <p style="text-align:center;">
+              <a id="outlook-link" href="" target="_new"><img src="https://studio.whenhub.com/img/outlook.png" style="width:100px;"/></a>
+            </p>
+          </div>
+          <div class="col-xs-10">
+            <h2>
+              Lesson Plan
+            </h2>
+            <div id="lesson">
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+          
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdn.whenhub.com/lib/whenhub/whencast.helper.js"></script>
+      <script src="https://cdn.whenhub.com/v1/embed.js"></script>
+      <script>        
+        $('#lesson').html('');
+        var scheduleId = getUrlParameter('id');
+        var timeshift = getUrlParameter('ts') || 0;
+        var wcast = {};
+        wcast['schedule-id'] = scheduleId;                
+        wcast['theme'] = 'teal';
+        wcast['time-shift'] = timeshift;
+        var height = $(window).height() - 100;
+        if (height > 800) {
+          height = 800;
+        }
+        $('#lesson').html('<div data-whencast="LessonPlan" style="height:' + height + 'px;"></div>');
+        var node = document.querySelector('div[data-whencast="LessonPlan"]');
+        WHENCAST.render(node, wcast);
+        
+        $('#google-link').attr('href',`https://calendar.google.com/calendar/render?cid=http://api.whenhub.com/api/schedules/${scheduleId}/ics?shiftInMS%3D${timeshift}`);
+        
+        $('#apple-link,#outlook-link').attr('href', `webcal://api.whenhub.com/api/schedules/${scheduleId}/ics?shiftInMS=${timeshift}`);
+        
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        };
+        
+      </script>
+  </body>
+</html>

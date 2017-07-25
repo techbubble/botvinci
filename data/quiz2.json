@@ -1,0 +1,74 @@
+{
+  "bb3343": {
+    "subject": "Science",
+    "help": "Choose the answer to the question",
+    "data": [
+      {
+        "question": "What are the three states of matter?",
+        "answers": [
+          "Solid, liquid, and gas",
+          "Potatoes, onions, and beans",
+          "Ice cream, cake, and cookies",
+          "Pictures, books, and calenders"
+        ],
+        "correctAnswer": "Solid, liquid, and gas",
+        "level": 0
+      },
+      {
+        "question": "What is au on the perodic table?",
+        "answers": [
+          "Gold",
+          "Silver",
+          "Copper",
+          "Bronze"
+        ],
+        "correctAnswer": "Gold",
+        "level": 0
+      },
+      {
+        "question": "Who invented the light bulb?",
+        "answers": [
+          "Thomas Edison",
+          "Albus Dumbledore",
+          "Harry Potter",
+          "The Cookie Monster"
+        ],
+        "correctAnswer": "Thomas Edison",
+        "level": 0
+      },
+      {
+        "question": "Who invented the telephone?",
+        "answers": [
+          "Alexander Graham Bell",
+          "Elizabeth Joy Caddy",
+          "Jeff Mark Lester",
+          "Scarlett Jade Anderson"
+        ],
+        "correctAnswer": "Alexander Graham Bell",
+        "level": 0
+      },
+      {
+        "question": "Who was the scientist who discovered gravity?",
+        "answers": [
+          "Sir Issac Newton",
+          "James Paterson",
+          "Peter Parker",
+          "Jesse Quick"
+        ],
+        "correctAnswer": "Sir Issac Newton",
+        "level": 0
+      },
+      {
+        "question": "Which famous scientist drew detailed diagrams of the human anatomy?",
+        "answers": [
+          "Leonardo da Vinci",
+          "Galileo",
+          "Shankaracharya",
+          "Dr. Caitlyn Snow"
+        ],
+        "correctAnswer": "Leonardo da Vinci",
+        "level": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "ss1234": {
+    "subject": "Social Studies",
+    "help": "Choose the answer to the question",
+    "data": [
+      {
+        "question": "Who was the first president?",
+        "answers": [
+          "George Washington",
+          "Abraham Lincoln",
+          "John F. Kennedy",
+          "Franklin D. Roosevelt"
+        ],
+        "correctAnswer": "George Washington",
+        "level": 0
+      },
+      {
+        "question": "Lewis and who went on an expedition to California?",
+        "answers": [
+          "Clark",
+          "John",
+          "Leonard",
+          "Bruce"
+        ],
+        "correctAnswer": "Clark",
+        "level": 0
+      },
+      {
+        "question": "Why is the California football team called The 49ers?",
+        "answers": [
+          "Because of the gold rush in 1849",
+          "There are 49 players",
+          "We are the 49th country",
+          "They picked a random name"
+        ],
+        "correctAnswer": "Because of the gold rush in 1849",
+        "level": 0
+      },
+      {
+        "question": "Who are the pioneers?",
+        "answers": [
+          "First people to settle in North America",
+          "A band",
+          "A movie",
+          "People who wash clothes"
+        ],
+        "correctAnswer": "First people to settle in North America",
+        "level": 0
+      },
+      {
+        "question": "When is Independence Day?",
+        "answers": [
+          "July 4",
+          "October 20",
+          "March 25",
+          "May 11"
+        ],
+        "correctAnswer": "July 4",
+        "level": 0
+      },
+      {
+        "question": "Colombus had three ships the Niña the Pinta and the Santa what?",
+        "answers": [
+          "Santa Maria",
+          "Santa Claus",
+          "Santa Cruz",
+          "Santa Rosa"
+        ],
+        "correctAnswer": "Santa Maria",
+        "level": 0
+      }
+    ]
+  }
+}

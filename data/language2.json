@@ -1,0 +1,39 @@
+{
+   
+  "sp1234": {
+    "subject": "Test your Spanish phrase skills",
+    "help": "Choose the phrase that is the most appropriate response for the displayed phrase",
+    "data": [
+    {
+        "questionType": "phrase",
+        "question": "¿Como estás?",
+        "answers": ["Estoy bien", "Hola", "Adiós", "Sí"],
+        "correctAnswer": "Estoy bien"
+      },
+     {
+        "questionType": "phrase",
+        "question": "Gracías",
+        "answers": ["De nada", "Estoy bien", "Adiós", "Yo no se"],
+        "correctAnswer": "De nada"
+      },
+    {
+        "questionType": "phrase",
+        "question": "¿Cómo se llama usted?",
+        "answers": ["Me llamo ............", "Tengo ............ años", "Sí", "No me gusta"],
+        "correctAnswer": "Me llamo ............"
+      },
+    {
+        "questionType": "phrase",
+        "question": "¿Cuántos años tienes?",
+        "answers": ["Tengo ............ años", "Me llamo ............", "Sí", "Adiós"],
+        "correctAnswer": "Tengo ............ años"
+      },
+    {
+        "questionType": "phrase",
+        "question": "¿De dónde eres?",
+        "answers": ["Soy de ............", "Me llamo ............", "No me gusta", "De nada"],
+        "correctAnswer": "Soy de ............"
+      }
+  ]
+  }
+}
